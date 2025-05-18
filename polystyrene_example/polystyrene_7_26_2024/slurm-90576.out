@@ -1,0 +1,9 @@
+/var/spool/slurm/d/job90576/slurm_script: line 3: from: command not found
+/var/spool/slurm/d/job90576/slurm_script: line 4: from: command not found
+/var/spool/slurm/d/job90576/slurm_script: line 5: from: command not found
+/var/spool/slurm/d/job90576/slurm_script: line 6: from: command not found
+/var/spool/slurm/d/job90576/slurm_script: line 8: smiles: command not found
+/var/spool/slurm/d/job90576/slurm_script: line 11: press: command not found
+/var/spool/slurm/d/job90576/slurm_script: line 17: work_dir: command not found
+/var/spool/slurm/d/job90576/slurm_script: line 18: syntax error near unexpected token `('
+/var/spool/slurm/d/job90576/slurm_script: line 18: `ff = GAFF2_mod()'

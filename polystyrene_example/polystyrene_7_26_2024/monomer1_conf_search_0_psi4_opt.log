@@ -1,0 +1,162 @@
+
+Scratch directory: /trace/home/mhoedema/
+gradient() will perform analytic gradient computation.
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on tracevm05.wec.local.cmu.edu
+*** at Wed Jul 24 14:24:45 2024
+
+   => Loading Basis Set <=
+
+    Name: RADONPY_BASIS
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1, 4, 11-18 entry H          line    44 file /trace/home/mhoedema/miniforge3/envs/radonpy1/share/psi4/basis/6-31g_d_p_.gbs 
+    atoms 2-3, 5-10   entry C          line   115 file /trace/home/mhoedema/miniforge3/envs/radonpy1/share/psi4/basis/6-31g_d_p_.gbs 
+
+   => WB97M-D3BJ: Empirical Dispersion <=
+
+    Grimme's -D3 (BJ-damping) Dispersion Correction
+    Grimme S.; Ehrlich S.; Goerigk L. (2011), J. Comput. Chem., 32: 1456
+    Parametrisation from:    A. Najib, L. Goerigk, J. Comput. Theory Chem.,14, 5725, 2018
+
+        s6 =       1.000000
+        s8 =       0.390800
+        a1 =       0.566000
+        a2 =       3.128000
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RKS Reference
+                        1 Threads,    953 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         H           -2.235975923625     0.725780375049     1.322566127239     1.007825032230
+         C           -1.951625923625    -0.121378624951     0.685238127239    12.000000000000
+         C           -2.851725923625    -0.135341624951    -0.566899872761    12.000000000000
+         H           -2.751615923625    -1.086373624951    -1.105083872761     1.007825032230
+         C           -0.473734923625    -0.034220324951     0.325439127239    12.000000000000
+         C            0.265536076375    -1.204253624951     0.069641127239    12.000000000000
+         C            1.627754076375    -1.122823624951    -0.262680872761    12.000000000000
+         C            2.258424076375     0.128825375049    -0.342418872761    12.000000000000
+         C            1.525574076375     1.299146375049    -0.090846472761    12.000000000000
+         C            0.163416076375     1.218106375049     0.240907127239    12.000000000000
+         H           -2.143325923625    -1.025963624951     1.276486127239     1.007825032230
+         H           -2.580015923625     0.678196375049    -1.251453872761     1.007825032230
+         H           -3.905095923625    -0.009143564951    -0.286174872761     1.007825032230
+         H           -0.215561923625    -2.176513624951     0.127571127239     1.007825032230
+         H            2.194144076375    -2.029103624951    -0.458472872761     1.007825032230
+         H            3.311834076375     0.191619375049    -0.599105872761     1.007825032230
+         H            2.012054076375     2.268286375049    -0.153127872761     1.007825032230
+         H           -0.397339023625     2.129106375049     0.431682127239     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      0.14980  B =      0.04831  C =      0.03994 [cm^-1]
+  Rotational constants: A =   4490.98336  B =   1448.37758  C =   1197.40661 [MHz]
+  Nuclear repulsion =  338.037637269760069
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 58
+  Nalpha       = 29
+  Nbeta        = 29
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: RADONPY_BASIS
+    Blend: 6-31G_D_P_
+    Number of shells: 78
+    Number of basis functions: 170
+    Number of Cartesian functions: 170
+    Spherical Harmonics?: false
+    Max angular momentum: 2
+
+  ==> DFT Potential <==
+
+   => LibXC <=
+
+    Version 6.2.2
+    S. Lehtola, C. Steigemann, M. J.T. Oliveira, and M. A.L. Marques.,  SoftwareX 7, 1–5 (2018) (10.1016/j.softx.2017.11.002)
+
+   => Composite Functional: WB97M-D3BJ <= 
+
+    wB97M-V with D3(BJ) instead of VV10 dispersion 
+
+    A. Najib, L. Goerigk, J. Comput. Theory Chem.,14, 5725, 2018
+    N. Mardirossian, M. Head-Gordon, J. Chem. Phys. 144, 214110, 2016
+
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =           TRUE
+
+    Exchange Hybrid     =           TRUE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange-Correlation Functionals <=
+
+    1.0000   wB97M-V exchange-correlation functional
+
+   => Exact (HF) Exchange <=
+
+    0.8500            HF,LR [omega = 0.3000]
+    0.1500               HF 
+
+   => LibXC Density Thresholds  <==
+
+    XC_HYB_MGGA_XC_WB97M_V:  1.00E-13 
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           NONE
+    Nuclear Scheme         =       TREUTLER
+
+    Blocking Scheme        =         OCTREE
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             99
+    Spherical Points       =            590
+    Total Points           =         967553
+    Total Blocks           =           6618
+    Max Points             =            256
+    Max Functions          =            161
+    Weights Tolerance      =       1.00E-15
+
+   => Loading Basis Set <=
+
+    Name: (RADONPY_BASIS AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1, 4, 11-18 entry H          line    51 file /trace/home/mhoedema/miniforge3/envs/radonpy1/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 2-3, 5-10   entry C          line   121 file /trace/home/mhoedema/miniforge3/envs/radonpy1/share/psi4/basis/cc-pvdz-jkfit.gbs 
+

@@ -1,0 +1,54 @@
+############# Starting with LINUX/VB/UBUNTU #####################################
+
+For new user of linux. Start terminal
+Folders referred as directories.
+	a) ls : Shows contents of current directories 
+	b) pwd: to know the location of current directory
+	c) cd change directory to home
+	d) cd some/path/to/go/to (To move to some other directory)
+	e) cp -r loc1/filename loc2 (To copy and paste a file)
+	f) mv loc1/filename loc2 (To cut paste a file from loc1 to loc2)
+	g) mkdir abc (Make a new folder/directory with name abc in the current location)	
+
+##### Start with Radonpy ###############################
+
+1. Create a folder (directory) in system 
+	mkdir Material_Research
+
+2. Go to the link 
+	https://github.com/conda-forge/miniforge
+	
+3. In this github page look for releases in the right hand side
+	Here a list of .sh files are available, look for 
+	Miniforge3-Linux-x86_64.sh
+
+4. Download this file and copy it to the directory
+
+5. Run the command in the directory only
+	bash ./Miniforge3-Linux-x86_64.sh
+
+6. Now run the following commands:
+	conda create -n radonpy python=3.9
+	conda activate radonpy
+	conda install -c psi4 -c conda-forge rdkit psi4 resp scipy mdtraj matplotlib pandas
+	conda install -c conda-forge lammps
+	git clone -b main https://github.com/RadonPy/RadonPy.git
+	export PYTHONPATH=$(pwd)/RadonPy:$PYTHONPATH
+
+############# SETUP COMPLETED #####################################################################
+
+
+7. Close the terminal by the command
+	exit
+
+8. Start a new terminal and go to required folder by cd
+
+9. Enter the two commands
+	conda activate radonpy
+	export PYTHONPATH=$(pwd)/RadonPy:$PYTHONPATH
+
+
+10. copy the .py file to the same directory and run
+	python example_01.py
+
+############################# Done #########################################################

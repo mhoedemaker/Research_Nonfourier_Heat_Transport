@@ -1,0 +1,20 @@
+
+Host: tracevm05.wec.local.cmu.edu
+
+Timers On : Wed Jul 24 14:24:41 2024
+Timers Off: Wed Jul 24 14:24:48 2024
+
+Wall Time:        6.52 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      4.617u      0.067s      2.821w      1 calls
+build grid                          :      3.883u      0.033s      2.361w      1 calls
+post-process grid                   :      0.733u      0.033s      0.459w      1 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      4.617u      0.067s      2.821w      1 calls
+| build grid                        :      3.883u      0.033s      2.361w      1 calls
+| post-process grid                 :      0.733u      0.033s      0.459w      1 calls
+
+**************************************************************************************
